@@ -2,37 +2,32 @@
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 
-const favorFoodMonica = new Set ([
-    "Bento",
-    "Sushi",
-    "Pancake",
-    "Eggy",
-    "Tempura",
-    "Bento",
-    "Eggy",
-    "Padang",
-    "Tteok",
-    "Sushi",
-    "Sushi",
-])
+const favorFoodMonica = new Set([
+  "Bento",
+  "Sushi",
+  "Pancake",
+  "Eggy",
+  "Tempura",
+  "Bento",
+  "Eggy",
+  "Padang",
+  "Tteok",
+  "Sushi",
+  "Sushi",
+]);
 
-const favorFoodWendy = new Set ([
-    "Tempura",
-    "Bento",
-    "Sushi",
-    "Pancake",
-    "Padang",
-    "Katsu",
-    "Geprek",
-    "Pancake",
-    "Eggy",
-])
+const favorFoodWendy = new Set([
+  "Tempura",
+  "Bento",
+  "Sushi",
+  "Pancake",
+  "Padang",
+  "Katsu",
+  "Geprek",
+  "Pancake",
+  "Eggy",
+]);
 
-const eduMonica = new Map([
-    { name: "SD 01", city: "Jakarta", graduate: 2016 },
-    { name: "SMP 02", city: "Jakarta", graduate: 2019 },
-    { name: "SMA 03", city: "Tangerang" },
-])
 const firstUser = {
   name: "Monica",
   gender: "Female",
@@ -40,8 +35,12 @@ const firstUser = {
   email: "monica@dingdong.com",
   favoriteColor: ["Yellow", "Pink", "White", "Purple"],
   isHavePet: true,
-  education: [eduMonica],
-  favoriteRestaurant: favorFoodMonica
+  education: [
+    { name: "SD 01", city: "Jakarta", graduate: 2016 },
+    { name: "SMP 02", city: "Jakarta", graduate: 2019 },
+    { name: "SMA 03", city: "Tangerang" },
+  ],
+  favoriteRestaurant: favorFoodMonica,
 };
 const secondUser = {
   name: "Wendy",
@@ -56,7 +55,7 @@ const secondUser = {
     { name: "SMA 01", city: "Surabaya", graduate: 2016 },
     { name: "Universitas Maju", city: "Tangerang" },
   ],
-  favoriteRestaurant: favorFoodWendy
+  favoriteRestaurant: favorFoodWendy,
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
